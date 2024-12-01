@@ -1,0 +1,12 @@
+[workspace]
+
+resolver = "2"
+
+members = ["year2024"]
+
+[workspace.lints.clippy]
+large_futures = "allow"
+missing_errors_doc = "allow"
+all = { level = "warn", priority = -1 }
+nursery = { level = "warn", priority = -1 }
+pedantic = { level = "warn", priority = -1 }
